@@ -1,0 +1,250 @@
+// PC端样式
+#userLayout.user-layout-wrapper.desktop {
+  .login {
+    height: 100vh;
+    width: 800px;
+    position: absolute;
+    right: 0;
+    background: url('~@/assets/img/login/loginPageRight.png') no-repeat;
+    background-size: cover;
+    .login-content {
+      position: absolute;
+      top: 50%;
+      right: 8%;
+      transform: translateY(-50%);
+
+    // 去除input默认阴影
+    .ant-input:focus {
+      box-shadow: none;
+    }
+
+    // 登录页面标题
+    .login-title {
+      height: 35px;
+      font-size: 42px;
+      font-family: Microsoft YaHei UI;
+      font-weight: bold;
+      color: rgba(11, 160, 238, 1);
+      line-height: 58px;
+      margin-bottom: 30px;
+    }
+
+    // 登录
+    .main {
+      width: 400px;
+      height: 480px;
+      border-radius: 6px;
+      padding: 59px 48px 0 0;
+
+      #formLogin.user-layout-login {
+        .login-text {
+          height: 32px;
+          font-size: 18px;
+          font-family: Arial;
+          font-weight: 400;
+          color: #0BA0EE;
+          line-height: 32px;
+          margin-bottom: 28px;
+        }
+        /deep/.ant-input-affix-wrapper .ant-input:not(:first-child) {
+          padding-left: 40px;
+        }
+
+        // input输入框
+        :global(.ant-input.ant-input-lg) {
+          border-color: #ddd;
+          height: 50px;
+          &:focus {
+            border-color: #0498ea;
+            -webkit-box-shadow: 0px 0px 22px 0px rgba(13, 220, 251, 0.45);
+            -moz-box-shadow: 0px 0px 22px 0px rgba(13, 220, 251, 0.45);
+            box-shadow: 0px 0px 22px 0px rgba(13, 220, 251, 0.45);
+          }
+        }
+        :global(.ant-form-explain) {
+          height: 2px;
+        }
+        // // tabs
+        // .ant-tabs {
+        //   height: 242px;
+        //   // tabs导航
+        //   :global(.ant-tabs-bar) {
+        //     margin-bottom: 40px;
+
+        //     // tabs导航标题
+        //     :global(.ant-tabs-nav .ant-tabs-tab) {
+        //       margin: 0 40px 16px 0;
+        //       padding: 0;
+        //       font-size: 16px;
+        //       color: #b3b5ba;
+        //     }
+
+        //     // 激活标题
+        //     :global(.ant-tabs-nav .ant-tabs-tab-active) {
+        //       color: #0493f3;
+        //     }
+        //   }
+
+        //   // 输入item
+        //   :global(.ant-row.ant-form-item) {
+        //     margin-bottom: 20px;
+        //   }
+        //   // 获取验证码
+        //   .getCaptcha {
+        //     float: right;
+        //     height: 44px;
+        //     width: 99px;
+        //     background-color: #0493f3;
+        //     color: #fff;
+        //     border-color: #0493f3;
+        //   }
+        // }
+
+        //记住密码和忘记密码
+        .ant-row.ant-form-item.form-out {
+          :global(.ant-form-item-control) {
+            line-height: 30px;
+            a {
+              color: #333333;
+            }
+          }
+        }
+
+        // 登录按钮
+        :global(.login-btn.ant-row.ant-form-item) {
+          margin-top: 32px;
+
+          button {
+            width: 100%;
+            height: 50px;
+            font-size: 24px;
+            font-family: PingFang SC;
+            font-weight: 400;
+          }
+        }
+
+        //注册跳转按钮
+        .register-btn {
+          font-size: 14px;
+          text-align: center;
+          cursor: pointer;
+          color: #0493f3;
+        }
+
+        //微信登陆按钮
+        .wechatLogin-btn {
+          margin: 36px 0 0;
+          font-size: 14px;
+          float: left;
+          cursor: pointer;
+          color: #0493f3;
+        }
+
+        //微信登录二维码
+        .wechatQRcodeBox {
+          height: 310px;
+          width: 304px;
+          background-color: #fff;
+          margin-top: -20px;
+        }
+
+        .qqLoginForPhone {
+          display: none;
+        }
+      }
+    }
+    }
+
+  }
+}
+
+// mobile端样式
+#userLayout.user-layout-wrapper.mobile {
+  .login {
+    margin: 0;
+    padding: 0;
+    .ant-tabs.ant-tabs-top.ant-tabs-line {
+      height: 267px;
+    }
+    .login-title {
+      font-size: 26px;
+      color: #fff;
+      font-weight: bold;
+      margin: 10% auto;
+      width: auto;
+      text-align: center;
+    }
+
+    .main {
+      margin: 0 auto;
+      padding: 5%;
+      width: 96%;
+      height: auto;
+      background-color: #fff;
+      border-radius: 6px;
+
+      :global(.ant-tabs-bar) {
+        margin-bottom: 10%;
+        :global(.ant-tabs-nav-scroll) {
+          text-align: center;
+        }
+      }
+
+      .form-out {
+        :global(.ant-form-item-children) {
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+      // 获取验证码
+      .getCaptcha {
+        float: right;
+        height: 40px;
+        width: 99px;
+        background-color: #0493f3;
+        color: #fff;
+        border-color: #0493f3;
+      }
+      :global(.login-btn.ant-row.ant-form-item) {
+        button {
+          width: 100%;
+          height: 48px;
+          font-size: 16px;
+        }
+      }
+
+      //注册跳转按钮
+      .register-btn {
+        font-size: 14px;
+        text-align: right;
+        color: #0493f3;
+        position: relative;
+        z-index: 19;
+      }
+
+      //微信登陆按钮
+      .wechatLogin-btn {
+        width: 70%;
+        font-size: 14px;
+        text-align: left;
+        float: left;
+        color: #0493f3;
+        position: relative;
+        z-index: 20;
+      }
+
+      //微信登录二维码
+      .wechatQRcodeBox {
+        height: 315px;
+        width: 304px;
+        background-color: #fff;
+        position: relative;
+        z-index: 10;
+      }
+
+      .wechatLoginBox {
+        display: none;
+      }
+    }
+  }
+}

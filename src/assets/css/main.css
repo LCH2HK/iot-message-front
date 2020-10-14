@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+body{background:#efefef;}
+.device-container{width:375px;height:667px;overflow-x:hidden;overflow-y:auto;border: 10px solid #808080;border-top:30px solid #808080;border-bottom:30px solid #808080;border-radius:10px;margin:80px auto 0 auto;background:#e8e8e8;}
+.funmenu{width:350px;background:#fff;height:100%;position:absolute;overflow:auto;padding:20px 15px;padding-top:70px;overflow-x:hidden;}
+.topbar{position:absolute;top:0;width:100%;height:50px;line-height:50px;background:#4a4a4a;border-bottom:1px solid #cacaca;z-index:1;color:#fff;padding:0 20px;}
+.leftmenu{left:0;top:0;border-right:1px solid #cacaca}
+.rightmenu{right:0;top:0;border-left:1px solid #cacaca}
+.actived{border:2px dashed #F60!important;}
+#mainfields>div{cursor:move;}
+#page1{min-height:590px;}
+#page1>div{cursor:pointer;}
+.ui-autocomplete{max-height:500px;overflow-y:auto;overflow-x:hidden;}

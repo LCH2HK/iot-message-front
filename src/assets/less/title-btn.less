@@ -1,0 +1,51 @@
+// 标题
+.title {
+  height: 36px;
+  width: 100%;
+  padding: 0px 0px 12px 0px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #e8e8e8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &>div {
+    font-size: 16px;
+    font-family: MicrosoftYaHeiUI;
+    font-weight: bold;
+    color: rgba(25, 25, 25, 1);
+    line-height: 32px;
+  }
+
+  &>.closeIcon {
+    cursor: pointer;
+  }
+}
+
+// 按钮通用样式
+button {
+  margin: 0;
+  padding: 0;
+  /* 自定义边框 */
+  border: 1px solid transparent;
+  /* 消除默认点击蓝色边框效果 */
+  outline: none;
+  margin-right: 10px;
+  min-width: 96px;
+  height: 36px;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+//按钮样式
+.btn-class {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .cancel {
+    background-color: rgba(238, 238, 238, 1);
+    color: rgba(51, 51, 51, 1);
+  }
+}

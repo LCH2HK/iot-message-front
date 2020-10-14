@@ -1,0 +1,325 @@
+.ff {
+    font-family: "微软雅黑";
+}
+.tc-w {
+    color: #fff;
+}
+.tc-l {
+    color: #989898;
+}
+.tc-r {
+    color: #B62B2B;
+}
+.fw {
+    font-weight: bold
+}
+.tc-b {
+    color: #60A6FD;
+}
+.tc-bb {
+    color: #3174C5;
+}
+.tc-g {
+    color: #44B381;
+}
+.tc-y {
+    color: #EF9A37;
+}
+.bg-w {
+    background: #fff;
+}
+.bg-thead{
+    background: #f7f7f7;
+}
+.bg-lb {
+    background: #4fa6e9;
+}
+.bg-main {
+    background: #EFF3F7;
+}
+.bg-g {
+    background: #44B381;
+}
+.bg-y {
+    background: #EF9A37;
+}
+.font1 {
+    font-size: 0.9375em;
+}
+.font2 {
+    font-size: 1em;
+}
+.font3 {
+    font-size: 0.75em;
+}
+.font4 {
+    font-size: 0.8125em;
+}
+.font5 {
+    font-size: 0.625em;
+}
+.bb {
+    border-bottom: 1px solid #E8E8E8;
+}
+.br {
+    border-right: 1px solid #E8E8E8;
+}
+.bt {
+    border-top: 1px solid #E8E8E8;
+}
+.bl{
+   border-left: 1px solid #E8E8E8; 
+}
+.item {
+    width: 25%;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.list1 {
+    height: 1.8625em;
+    line-height: 1.8625em;
+}
+.list2 {
+    height: 1.875em;
+    line-height: 1.875em;
+}
+.list3 {
+    height: 3.9375em;
+}
+.list4 {
+    height: 2.625em;
+}
+.basicMesList {
+    height: 2.4375em;
+}
+.umar1 {
+    margin-left: 0.75em;
+}
+.umar2 {
+    margin-bottom: 0.75em;
+}
+.uinn-side {
+    padding: 0em 0.75em;
+}
+.uinn-tb {
+    padding: 0.75em 0em;
+}
+.uinn-all {
+    padding: 0.75em;
+}
+.uinn-top {
+    padding-top: 0.75em;
+}
+.uinn1 {
+    padding: 0.75em;
+    padding-bottom: 0em;
+}
+.uinn2 {
+    padding: 0em 0.75em;
+}
+.scrollBar {
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.uinn3 {
+    padding: 0em 0.5em;
+}
+.uinn4 {
+    padding: 0em 0.75em;
+}
+.lable-l{
+   width: 30%;
+    word-wrap: break-word;
+    word-break: break-all; 
+}
+.longtext {
+    width: 70%;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.longtext-long {
+    width: 90%;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.img-empty {
+    width: 10em;
+    height: 10em;
+    background: url(' ../css/img/no_content.png') no-repeat center center;
+    background-size: 80%;
+}
+.approveNode {
+    padding: 0.6875em 0.4375em;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    margin-bottom: 0.5em;
+}
+.approveList {
+    padding: 0.6875em 0em;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    margin-bottom: 0.75em;
+}
+.img-word {
+    width: 0.8125em;
+    height: 0.8125em;
+    background: url('img/word.png') no-repeat center center;
+    background-size: 100%;
+}
+
+.img-download {
+    width: 0.8125em;
+    height: 0.8125em;
+    background: url('img/download.png') no-repeat center center;
+    background-size: 100%;
+}
+.img-add {
+    width: 0.8125em;
+    height: 0.8125em;
+    background: url('img/add.png') no-repeat center center;
+    background-size: 100%;
+}
+.img-agree {
+    width: 0.8125em;
+    height: 0.8125em;
+    background: url('img/agree.png') no-repeat center center;
+    background-size: 100%;
+}
+.img-refuse {
+    width: 0.8125em;
+    height: 0.8125em;
+    background: url('img/refuse_r.png') no-repeat center center;
+    background-size: 100%;
+}
+.img-back {
+    width: 0.8125em;
+    height: 0.8125em;
+    background: url('img/back.png') no-repeat center center;
+    background-size: 100%;
+}
+.img-rightMark {
+    width: 0.375em;
+    height: 0.75em;
+    background: url('img/rightMark.png') no-repeat center center;
+    background-size: 100%;
+}
+.img-right {
+    width: 0.8875em;
+    height: 1.1875em;
+    background: url('img/right_arrow.png') no-repeat center center;
+    background-size: 70%;
+    margin-left: 0.625em;
+}
+.img-usualInfor {
+    width: 0.8125em;
+    height: 0.8125em;
+    background: url('img/usualInfor.png') no-repeat center center;
+    background-size: 100%;
+}
+.img-netForm {
+    width: 1.3125em;
+    height: 1.3125em;
+    background: url('img/netForm.png') no-repeat center center;
+    background-size: 70%;
+    margin: 0 auto
+}
+.img-billboard {
+    width: 1.3125em;
+    height: 1.3125em;
+    background: url('img/billboard.png') no-repeat center center;
+    background-size: 70%;
+    margin: 0 auto
+}
+.img-travel {
+    width: 1.3125em;
+    height: 1.3125em;
+    background: url('img/travelicon.png') no-repeat center center;
+    background-size: 70%;
+    margin: 0 auto
+}
+.img-getMange {
+    width: 1.3125em;
+    height: 1.3125em;
+    background: url('img/getMange.png') no-repeat center center;
+    background-size: 70%;
+    margin: 0 auto
+}
+.img-postMange {
+    width: 1.3125em;
+    height: 1.3125em;
+    background: url('img/postMange.png') no-repeat center center;
+    background-size: 70%;
+    margin: 0 auto
+}
+.img-program {
+    width: 1.3125em;
+    height: 1.3125em;
+    background: url('img/program.png') no-repeat center center;
+    background-size: 70%;
+    margin: 0 auto
+}
+.circle {
+    width: 0.5em;
+    height: 0.5em;
+    border-radius: 50%;
+    border: 0.25625em solid #44B381;
+}
+.line {
+    margin-left: 0.4em;
+    width: 0.125em;
+    background: #E9E9E9;
+}
+.textarea {
+    height: 9.4375em;
+    width: 100%;
+    display: block;
+    outline: none;
+    box-sizing: border-box;
+    padding: 1em 1em;
+    font-size: 0.8125em;
+    border: none;
+}
+.sel {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border: none;
+    font-size: 0.8125em;
+    outline: none;
+    width: 100%;
+}
+.approveBtn {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-sizing:border-box;
+    min-height:3em;
+}
+.centerLine {
+    height: 1.5625em;
+    width: 1px;
+    background: #e8e8e8;
+}
+.splitLine {
+    height: 1px;
+    width: 100%;
+    background: #e8e8e8;
+}
+.ren-box1{
+    width:50%;
+    box-sizing:border-box;
+    float:left;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    
+    height: 3em;
+    border-bottom:1px solid #EAEAEA
+}
+.ren-box1:nth-child(odd){
+    border-right:1px solid #EAEAEA
+}
+
+.contact-box100{
+    width:100%;
+    box-sizing:border-box;
+}

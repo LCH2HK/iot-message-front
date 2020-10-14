@@ -1,0 +1,85 @@
+.desc {
+  float: right;
+
+  .title {
+    height: 62px;
+    font-size: 64px;
+    font-family: SourceHanSansCN-Bold;
+    font-weight: bold;
+    color: #0BA0EE;
+    line-height: 40px;
+    margin-bottom: 39px;
+  }
+
+  .title.title-desc {
+    font-size: 40px;
+  }
+
+  p {
+    width: 360px;
+    height: 80px;
+    font-size: 16px;
+    font-family: SourceHanSansCN-Normal;
+    font-weight: 400;
+    color: #0BA0EE;
+    line-height: 32px;
+    margin-bottom: 59px;
+  }
+
+  button {
+    margin: 0 12px 0 1px;
+    width: 120px;
+    height: 44px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: MicrosoftYaHei;
+    font-weight: 400;
+    line-height: 32px;
+    cursor: pointer;
+  }
+
+  button.chosed {
+    color: #4B80FA;
+    background-color: #fff;
+  }
+
+  button.unchosed {
+    color: #fff;
+    background-color: #4B80FA;
+    border: 1px solid rgba(255, 255, 255, 1);
+  }
+
+}
+
+/* 移动端适配 */
+#userLayout.user-layout-wrapper {
+  &.mobile {
+    .desc {
+
+      .title {
+        text-align: center;
+        font-size: 2.5rem;
+        margin-top: 20%;
+        margin-bottom: 0;
+      }
+      .title.title-desc{
+        margin-top: 0;
+        font-size: 1.2rem;
+      }
+
+      p {
+        width: 80%;
+        margin: 10% auto 10%;
+        height: auto;
+        font-size: 1rem;
+      }
+      
+      a {
+        button {
+          margin: 10px;
+        }
+      }
+    }
+
+  }
+}

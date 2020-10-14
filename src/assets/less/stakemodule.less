@@ -1,0 +1,145 @@
+// 弹窗规范样式
+// 有图标的tab的下面横线样式
+.ant-tabs {
+  :global(.ant-tabs-bar) {
+    :global(.ant-tabs-nav-container) {
+      :global(.ant-tabs-nav-scroll) {
+        :global(.ant-tabs-nav) {
+          :global(.ant-tabs-ink-bar) {
+            width: 24px !important;
+            height: 3px !important;
+            border-radius: 2px !important;
+            margin-left: 45px !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+// 按钮及边框样式
+.ant-form-item-label {
+  line-height: 40px;
+}
+
+.table-page-search-wrapper {
+  .ant-form-inline {
+    .ant-form-item> :global(.ant-form-item-label) {
+      line-height: 40px;
+    }
+  }
+}
+
+.ant-input {
+  height: 40px;
+}
+
+textarea.ant-input {
+  height: auto;
+}
+
+/* 下拉选框 */
+.ant-select {
+
+  /* height: 40px; */
+  :global(.ant-select-selection--single) {
+    height: 40px;
+
+    :global(.ant-select-selection__rendered) {
+      line-height: 40px;
+    }
+  }
+}
+
+.ant-btn-primary {
+  height: 40px;
+}
+
+.ant-dropdown-trigger {
+  height: 40px;
+}
+
+.ant-card-body .table-operator {
+  display: flex;
+  margin-bottom: 20px;
+  vertical-align: top;
+  height: 40px;
+}
+
+.ant-card-body .table-operator>div {
+  flex: 1;
+  margin-left: 14px;
+}
+
+.ant-card-body .table-operator .ant-alert-info {
+  border: unset;
+  border-radius: 4px;
+  background: rgba(109, 98, 255, 0.1);
+}
+
+//时间选择
+.ant-calendar-picker {
+  width: 100% !important;
+
+  :global(.ant-input) {
+    height: 40px;
+  }
+}
+
+//按钮样式
+.btnClass {
+  :global(.ant-form-item-control-wrapper) {
+    width: 100%;
+    text-align: center;
+
+    button {
+      margin: 0;
+      padding: 0;
+      border: 1px solid transparent; //自定义边框
+      outline: none; //消除默认点击蓝色边框效果
+    }
+
+    .cancel {
+      width: 96px;
+      height: 40px;
+      background: rgba(238, 238, 238, 1);
+      border-radius: 4px;
+      color: rgba(51, 51, 51, 1);
+    }
+
+    .confirm {
+      width: 96px;
+      height: 40px;
+      background: rgba(109, 98, 255, 1);
+      border-radius: 4px;
+      color: rgba(255, 255, 255, 1);
+    }
+  }
+}
+
+.proc_bg {
+  margin-top: 10px;
+  padding: 10px 15px;
+  height: auto;
+  overflow: hidden;
+  background: #FFF;
+  border: 1px solid #EEE;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+
+  ul li {
+    float: left;
+    margin-left: 22px;
+    display: block;
+    height: 18px;
+    line-height: 18px;
+    color: #888;
+    text-indent: 30px;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}

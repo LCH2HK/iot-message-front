@@ -1,0 +1,358 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+// 去除input输入框阴影
+.ant-input:focus {
+  box-shadow: none;
+}
+
+// pc端web样式
+.ant-modal.registerPage.desktop {
+  .register {
+    height: 500px;
+    margin: 13px 36px 0 36px;
+
+    // 标题
+    .register-one-title {
+      margin: 10px 0 45px 130px;
+      width: 380px;
+      font-size: 28px;
+      line-height: 32px;
+      font-weight: bold;
+      color: #333333;
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+
+      img {
+        margin-right: 4px;
+      }
+      .have-account {
+        line-height: 14px;
+        font-size: 14px;
+        font-weight: 400;
+        color: rgba(204, 204, 204, 1);
+        .registered {
+          color: #0ba0ee;
+          cursor: pointer;
+        }
+      }
+    }
+
+    // 表单项
+    .item {
+      height: 40px;
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+
+      // 表单项名称
+      :global(.ant-form-item-label) {
+        width: 200px;
+      }
+
+      // 表单项的内容（包括错误提示）
+      :global(.ant-form-item-control-wrapper) {
+        :global(.ant-form-item-control) {
+          display: flex;
+          align-items: center;
+
+          //表单项操作内容
+          :global(.ant-form-item-children) {
+            //
+            margin: 0 20px 0 10px;
+
+            // input输入框通用样式
+            input {
+              width: 300px;
+              height: 40px;
+              border-color: #dddddd;
+              //内容左空隙
+              padding-left: 16px;
+
+              // 选中状态边框
+              &:focus {
+                border-color: #0493f3;
+              }
+            }
+
+            //拖动验证码
+            .drag.verify {
+              width: 300px;
+            }
+
+            //手机验证码特殊
+            .phone-code {
+              width: 190px;
+              margin-right: 10px;
+            }
+
+            // 获取验证码按钮
+            .get-phone-code {
+              width: 100px;
+              height: 40px;
+              color: #0493f3;
+              border: 1px solid #ddd;
+              background-color: #fff;
+
+              &:hover {
+                color: #fff;
+                background-color: #0493f3;
+                border-color: #0493f3;
+              }
+            }
+
+            // 选择所属小组
+            :global(.ant-select-selection.ant-select-selection--single) {
+              height: 40px;
+              width: 300px;
+              border-color: #ddd;
+              box-shadow: none;
+
+              &:hover,
+              &:focus {
+                border-color: #0493f3;
+              }
+
+              :global(.ant-select-selection__rendered) {
+                line-height: 40px;
+              }
+            }
+          }
+
+          // 右侧提示信息
+          :global(.ant-form-explain) {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+
+    // 服务条款
+    .ant-checkbox-wrapper {
+      padding-left: 250px;
+      margin-top: 17px;
+      height: 14px;
+
+      :global(.ant-checkbox-inner) {
+        border-color: #ddd;
+      }
+
+      :global(.ant-checkbox-checked .ant-checkbox-inner) {
+        background-color: #0493f3;
+        border-color: #0493f3;
+      }
+    }
+
+    // 表单输入完，下一步
+    .next-container {
+      display: flex;
+      align-items: flex-end;
+      margin-top: 40px;
+
+      span {
+        width: 200px;
+        cursor: pointer;
+
+        &:hover {
+          color: #0493f3;
+        }
+      }
+      // 注册
+      button {
+        height: 40px;
+        width: 382px;
+        margin: 0 130px 0;
+      }
+    }
+    .checkbox-text {
+      color: #CCCCCC;
+      font-size:12px;
+
+      .agree-span{
+        color: #0493f3 ;
+      }
+    }
+    .help {
+      margin-left: 290px;
+      color: #CCCCCC;
+      font-size:12px
+    }
+  }
+
+  .register-done {
+    text-align: center;
+    width: 100%;
+
+    .result {
+      margin: 60px auto;
+      width: 248px;
+      height: 189px;
+      text-align: center;
+
+      img {
+        height: 149px;
+      }
+
+      div {
+        margin: 0 auto;
+        width: 241px;
+        height: 24px;
+        font-size: 24px;
+        font-family: MicrosoftYaHei;
+        font-weight: 400;
+        color: #333;
+        line-height: 32px;
+      }
+    }
+
+    .jump {
+      margin-top: 44px;
+
+      .time2jump {
+        height: 14px;
+        font-size: 14px;
+        font-family: MicrosoftYaHei;
+        font-weight: 400;
+        color: #333;
+        line-height: 32px;
+        margin-bottom: 20px;
+      }
+
+      .jump2login {
+        height: 19px;
+        font-size: 18px;
+        font-family: MicrosoftYaHei-Bold;
+        font-weight: bold;
+        color: #0493f3;
+        line-height: 32px;
+      }
+    }
+
+    .desc {
+      font-size: 14px;
+      font-family: MicrosoftYaHei;
+      font-weight: 400;
+      color: #968d8d;
+      line-height: 32px;
+      margin-top: 60px;
+    }
+  }
+}
+
+// mobile端web样式
+.ant-modal.registerPage.mobile {
+  // 表单项
+  .item.ant-row.ant-form-item {
+    height: 85px;
+
+    // 输入框通用样式
+    input {
+      display: inline-block;
+      width: 100%;
+      padding-left: 3%;
+      border: 1px solid #ddd;
+    }
+
+    // 短信验证码输入框
+    .phone-code {
+      width: 68%;
+      margin-right: 2%;
+    }
+    // 短信验证码按钮
+    .get-phone-code {
+      width: 30%;
+      color: #fff;
+    }
+  }
+
+  // 服务条款复选框
+  .ant-checkbox-wrapper {
+    :global(.ant-checkbox-inner) {
+      border-color: #ddd;
+    }
+    :global(.ant-checkbox-checked .ant-checkbox-inner) {
+      border-color: #0493f3;
+    }
+  }
+
+  // 表单填写完毕，注册
+  .next-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    span {
+      display: inline-block;
+      width: 30%;
+      &:hover {
+        color: #0493f3;
+      }
+    }
+
+    .help {
+      text-align: right;
+    }
+    // 注册按钮
+    button {
+      width: 30%;
+    }
+  }
+
+  // 注册完成页
+  .register-done {
+    text-align: center;
+
+    .result {
+      margin: 20px auto;
+      width: 248px;
+      height: 189px;
+      text-align: center;
+
+      img {
+        height: 149px;
+      }
+
+      div {
+        margin: 0 auto;
+        width: 241px;
+        height: 24px;
+        font-size: 24px;
+        font-weight: 400;
+        color: #333;
+        line-height: 32px;
+      }
+    }
+
+    .jump {
+      margin-top: 44px;
+
+      .time2jump {
+        height: 14px;
+        font-size: 14px;
+        font-weight: 400;
+        color: rgba(51, 51, 51, 1);
+        line-height: 32px;
+        margin-bottom: 20px;
+      }
+
+      .jump2login {
+        height: 19px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #0493f3;
+        line-height: 32px;
+      }
+    }
+
+    .desc {
+      font-size: 14px;
+      font-family: MicrosoftYaHei;
+      font-weight: 400;
+      color: rgba(51, 51, 51, 0.3);
+      line-height: 32px;
+      margin-top: 60px;
+    }
+  }
+}
